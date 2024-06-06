@@ -1,0 +1,39 @@
+/*generale*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+/*fredoka*/
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*header*/
+h1{
+    color: rgb(229, 49, 112);
+    font-size: 50px;
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*main*/
+main{
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
